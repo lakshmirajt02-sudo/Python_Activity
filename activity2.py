@@ -106,20 +106,39 @@
 
 # Challenge questions
 # -------------------
-numbers = [10, 20, 30, 40, 50]
-print(numbers[2])
+# numbers = [10, 20, 30, 40, 50]
+# print(numbers[2])
 
-temp = numbers[0]
-numbers[0] = numbers[4]
-numbers[4] = temp
-print(numbers)
+# temp = numbers[0]
+# numbers[0] = numbers[4]
+# numbers[4] = temp
+# print(numbers)
 
-new_list = list(numbers[0:3])
-print(new_list)
+# new_list = list(numbers[:3])
+# print(new_list)
 
-numbers.remove(30)
-print(numbers)
+# numbers.remove(30)
+# print(numbers)
+# l1 = [10, 20]
+# l2 = [30, 50]
+# l3 = [6, 7]
+# merged = l1+ l2 + l3
+# print(merged)
 
+languages = ['python', 'java', 'python', 'c', 'python']
+print(languages.count('python'))
+
+first_half  = languages[:3]
+print(first_half)
+
+second_half  = languages[3:]
+print(second_half)
+
+print(min(languages))
+print(max(languages))
+
+tuple = tuple(languages)
+print(tuple)
 
 
 
